@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: here
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: 
+  dialogueLines:
+  - "\uC218\uD76C : \uC5EC\uAE30\uC11C \uAC8C\uC784\uC744 \uD560\uAC70\uC57C."
+  - "\uC218\uD76C : \uC228\uC744 \uACF3\uC740 \uB9CE\uC73C\uB2C8\uAE50 \uAD1C\uCC2E\uC9C0?"
+  - "\uC218\uD76C : 1\uBD84 30\uCD08\uC529 \uD560\uAEBC\uACE0, 3\uD310 \uC911 \uB354
+    \uB9CE\uC774 \uC774\uAE34 \uC0AC\uB78C\uC774 \uC774\uAE30\uB294 \uAC78\uB85C
+    \uD558\uC790"
+  - "\uB0B4\uAC00 \uCC3E\uB294 \uC5ED\uD560\uC744 \uD560\uD14C\uB2C8 \uB108\uAC00
+    \uC228\uB294 \uC5ED\uD560\uC744 \uD558\uB294\uAC70\uC57C."
+  hasChoice: 1
+  choices:
+  - text: "\uC774\uBC88\uC5D0\uB3C4 \uB0B4\uAE30\uB97C \uD558\uB0D0\uACE0 \uBB3C\uC5B4\uBCF8\uB2E4."
+    nextDialogue: {fileID: 11400000, guid: 4fd8f262f9771e44291160a55b1b155f, type: 2}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: -1
+    teleportIndex: -1
+    autoContinueDialogue: 0
+  - text: game_start
+    nextDialogue: {fileID: 0}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0

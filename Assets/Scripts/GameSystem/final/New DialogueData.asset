@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: New DialogueData
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: 
+  dialogueLines:
+  - 
+  - "\uC218\uD76C : \uC654\uC5B4? \uB0B4\uAC00 \uBD80\uD0C1\uC774 \uC788\uB294\uB370
+    \uB4E4\uC5B4\uC904\uB798?"
+  hasChoice: 1
+  choices:
+  - text: "\uC9C0\uAE08 \uB4E3\uB294\uB2E4."
+    nextDialogue: {fileID: 11400000, guid: 97eac77071e1a6944986e63a81b28d80, type: 2}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0
+  - text: "\uB098\uC911\uC5D0 \uB4E3\uB294\uB2E4"
+    nextDialogue: {fileID: 11400000, guid: 575c8bf87663e2e4f8871fbca5bcf219, type: 2}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 115df4360edcfff4697bde542f747852
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - resultPanel: {instanceID: 0}
+  - playerChoiceImage: {instanceID: 0}
+  - ghostChoiceImage: {instanceID: 0}
+  - rockSprite: {fileID: 21300000, guid: 0a3e60e8b5eca8b4c985b239f6cc834c, type: 3}
+  - scissorsSprite: {fileID: 21300000, guid: 2bcd68cc06be553459845c984cf1e21c, type: 3}
+  - paperSprite: {fileID: 21300000, guid: 290e491989336984c8185dae5dfb07c3, type: 3}
+  - playerPiece: {instanceID: 0}
+  - ghostPiece: {instanceID: 0}
+  - rockButton: {instanceID: 0}
+  - scissorsButton: {instanceID: 0}
+  - paperButton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

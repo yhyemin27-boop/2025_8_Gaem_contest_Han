@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: sdsd
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: 
+  dialogueLines:
+  - "\uC18C\uC124 \uCC45\uC774 \uC788\uB2E4."
+  - "\u3008\uC0AC\uB0E5\uAFBC\uC758 \uC5B4\uB9AC\uC11D\uC74C\u3009"
+  - "\uC0AC\uB0E5\uAFBC\uC740 \uAE4A\uC740 \uC232\uC5D0\uC11C \uC0C1\uCC98 \uC785\uC740
+    \uB291\uB300\uB97C \uAD6C\uD588\uB2E4.\n\uB291\uB300\uB294 \uAC10\uC0AC\uC758
+    \uB73B\uC73C\uB85C \uC55E\uC73C\uB85C \uC0AC\uB0E5\uAFBC\uC744 \uC9C0\uD0A4\uACA0\uB2E4\uACE0
+    \uB9F9\uC138\uD588\uB2E4."
+  - "\uD558\uC9C0\uB9CC \uD639\uB3C5\uD55C \uACA8\uC6B8\uC774 \uC624\uC790 \uB291\uB300\uB294
+    \uAD76\uC8FC\uB9BC\uC5D0 \uC2DC\uB2EC\uB838\uB2E4.\n \uC0AC\uB0E5\uAFBC\uC740
+    \uB291\uB300\uC5D0\uAC8C \uC218\uB9CE\uC740 \uC74C\uC2DD\uC744 \uC8FC\uC5C8\uC9C0\uB9CC,
+    \uB291\uB300\uB294 \uC131\uCCB4\uC600\uAE30\uC5D0 \uBD80\uC871\uD558\uC600\uB2E4."
+  - "\uC0AC\uB0E5\uAFBC\uC774 \uC7A0\uB4E0 \uBC24, \uB291\uB300\uB294 \uC870\uC6A9\uD788
+    \uADF8\uC758 \uACC1\uC5D0 \uB2E4\uAC00\uAC14\uB2E4.\n\uB2E4\uC74C \uB0A0 \uC544\uCE68,
+    \uB208\uBC2D \uC704\uC5D0\uB294 \uBC1C\uC790\uAD6D \uD558\uB098 \uC5C6\uC774
+    \uD53C\uB85C \uBB3C\uB4E0 \uC790\uB9AC\uB9CC \uB0A8\uC544 \uC788\uC5C8\uB2E4."
+  hasChoice: 1
+  choices:
+  - text: "\uB9D0\uC5D0 \uB300\uD55C \uCC45\uC744 \uC77D\uB294\uB2E4"
+    nextDialogue: {fileID: 11400000, guid: c5599cd7d582ee74aa8006de632c0270, type: 2}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0
+  - text: "\uADF8\uB9CC\uB454\uB2E4 - \uB2E4\uC2DC \uBABB \uC77D\uC2B5\uB2C8\uB2E4."
+    nextDialogue: {fileID: 0}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0

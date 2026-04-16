@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: note
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: 
+  dialogueLines:
+  - "\uC54C\uCF54\uC62C \uB7A8\uD504 \uCCB4\uD06C\uCE78\uC774 \uBE44\uC5B4\uC788\uACE0,
+    \uADF8\uC606\uC5D0\uB294 \uCCB4\uC721\uAD00 \uD0A4\uAC00 \uC228\uACA8\uC838 \uC788\uB2E4"
+  - "\uC0C8\uAC83\uCC98\uB7FC \uBCF4\uC774\uB294 \uCCB4\uC721\uAD00 \uD0A4\uAC00
+    \uC788\uB2E4."
+  - "\uADF8 \uC606\uC5D0 \uB178\uD2B8\uAC00 \uBCF4\uC778\uB2E4."
+  hasChoice: 1
+  choices:
+  - text: "\uCCB4\uC721\uAD00 \uD0A4\uB9CC \uAC00\uC838\uAC04\uB2E4"
+    nextDialogue: {fileID: 0}
+    rewardItem: past_gym_key
+    rewardAmount: 1
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0
+  - text: "\uB178\uD2B8\uB97C \uBCF8\uB2E4."
+    nextDialogue: {fileID: 11400000, guid: 2c42f4481f35ba74ca73780b7e574732, type: 2}
+    rewardItem: past_gym_key
+    rewardAmount: 1
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0

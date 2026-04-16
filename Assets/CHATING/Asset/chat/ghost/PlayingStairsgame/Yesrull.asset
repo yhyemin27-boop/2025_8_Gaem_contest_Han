@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: Yesrull
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: 
+  dialogueLines:
+  - "\uC218\uD76C : \uD55C\uBC88\uB9CC \uC124\uBA85\uD574\uC904\uAC8C"
+  - "\uC218\uD76C : \uB2E8\uC21C\uD558\uAC8C \uB9D0\uD574\uC11C \uC774\uAE30\uBA74
+    \uC62C\uB77C\uAC00\uACE0, \uC9C0\uBA74 \uB0B4\uB824\uAC00\uC57C\uD574"
+  - "\uC218\uD76C : \uC800 \uC704\uC5D0 \uC788\uB294 \uACC4\uB2E8\uAE4C\uC9C0 \uC62C\uB77C\uAC00\uBA74
+    \uC774\uAE30\uB294 \uAC78\uB85C"
+  - "\uC218\uD76C : \uBC14\uC704\uB294 \uD55C\uCE78, \uAC00\uC704\uB294 \uB450\uCE78,
+    \uBCF4\uB294 \uC138\uCE78\uC774\uC57C"
+  - "\uC218\uD76C : \uC9C0\uB294 \uC0AC\uB78C\uC740 \uD55C\uCE78 \uB0B4\uB824\uAC00\uB294
+    \uAC78\uB85C \uD558\uC790"
+  - "\uC218\uD76C : \uADF8\uB0E5 \uD558\uB294 \uAC74 \uC7AC\uBBF8 \uC5C6\uC73C\uB2C8"
+  - "\uC218\uD76C : \uC5B4\uB5A4 \uC9C8\uBB38\uC774\uB4E0\uC9C0 \uB2F5\uC744 \uD574\uC904\uAC8C"
+  hasChoice: 1
+  choices:
+  - text: "\uADC0\uCC2E\uC73C\uB2C8 \uADF8\uB0E5 \uC5EC\uAE38 \uB098\uAC00\uAC8C\uD574\uB2EC\uB77C\uACE0
+      \uD55C\uB2E4"
+    nextDialogue: {fileID: 11400000, guid: fe0826c3efc6b564db9f7a7737651ccc, type: 2}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: -2
+    teleportIndex: -1
+    autoContinueDialogue: 1
+  - text: (game_start)
+    nextDialogue: {fileID: 0}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    teleportIndex: -1
+    autoContinueDialogue: 0

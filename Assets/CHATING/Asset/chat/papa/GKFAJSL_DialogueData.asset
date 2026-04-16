@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: GKFAJSL_DialogueData
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: "\uC0C1\uC810 \uD560\uBA38"
+  dialogueLines:
+  - 
+  - "\uC774\uB9AC \uC640\uBCF4\uB834"
+  - "\uB108\uC5D0\uAC8C \uC5B4\uC6B8\uB9B4 \uAC83 \uAC19\uAD6C\uB098"
+  - "\uAC00\uC9C8\uD14C\uB2C8?"
+  hasChoice: 1
+  choices:
+  - text: X
+    nextDialogue: {fileID: 11400000, guid: b78906ee7e78d404f8fd5826e71a3a6c, type: 2}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: -2
+    teleportIndex: -1
+    autoContinueDialogue: 1
+  - text: O
+    nextDialogue: {fileID: 11400000, guid: 95f08926a01570940a7e584bd34f6364, type: 2}
+    rewardItem: ring
+    rewardAmount: 1
+    affectionChange: 2
+    teleportIndex: -1
+    autoContinueDialogue: 1

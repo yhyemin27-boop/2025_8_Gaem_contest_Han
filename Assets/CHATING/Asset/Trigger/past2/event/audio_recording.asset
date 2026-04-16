@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854a54b787fd4b4cb6900e960276404, type: 3}
+  m_Name: audio_recording
+  m_EditorClassIdentifier: 
+  GKFAJSL_chat: 
+  dialogueLines:
+  - 
+  - "\uB179\uC74C\uBCF8\uC774\uB2E4."
+  - "\uB204\uAD70\uAC00\uC758 \uB4B7\uB2F4\uD654\uAC00 \uB2F4\uACA8\uC788\uB2E4..."
+  hasChoice: 1
+  choices:
+  - text: "\uCC59\uAE34\uB2E4"
+    nextDialogue: {fileID: 0}
+    rewardItem: record
+    rewardAmount: 1
+    affectionChange: 0
+    autoContinueDialogue: 0
+  - text: "\uCC59\uAE30\uC9C0 \uC54A\uB294\uB2E4."
+    nextDialogue: {fileID: 0}
+    rewardItem: 
+    rewardAmount: 0
+    affectionChange: 0
+    autoContinueDialogue: 0
